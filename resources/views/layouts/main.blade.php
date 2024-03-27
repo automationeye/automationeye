@@ -142,7 +142,7 @@
         <div class="nav-right d-flex jsutify-content-end align-items-center">
 
             <div class="header-btn d-sm-flex d-none">
-                <a href="contact.html">Get A Quote</a>
+                <a href="/contact">Get A Quote</a>
             </div>
             <div class="sidebar-button mobile-menu-btn ">
                 <span></span>
