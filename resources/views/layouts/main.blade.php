@@ -135,7 +135,7 @@
                     </div>
                 </form>
                 <div class="header-btn5">
-                    <a class="primary-btn3" href="contact.html">Get A Quote</a>
+                    <a class="primary-btn3" href="/contact">Get A Quote</a>
                 </div>
             </div>
         </div>
