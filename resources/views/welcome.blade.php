@@ -25,8 +25,8 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="banner-content">
-                        <h1>Great Projects
-                            <a href="#"></a><br> Building Africa </h1>
+                        <h1>Bringing Ease
+                            <a href="#"></a><br>To You </h1>
                         <p>We are the leading Experts in Industrial Automation, Electrical, Mechanical and
                             Instrumentation Support in Africa. With a reach of over half of the African geography, we
                             strive to bring ease to the manufacturing industry with our robust skillest of support,
