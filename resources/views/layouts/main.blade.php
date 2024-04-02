@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="assets/css/style2.css">
 
     <title>{{ env('APP_NAME') }}</title>
-    <link rel="icon" href="logo.png" type="image/gif" sizes="20x20">
+    <link rel="icon" href="favi.jpeg" type="image/gif" sizes="20x20">
 </head>
 
 <body class="bg-dark-5 tt-magic-cursor">
