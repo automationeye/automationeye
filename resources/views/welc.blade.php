@@ -1,141 +1,147 @@
 @extends('layouts.main')
 @section('content')
-
-<div class="banner-area-wrapper">
-                <div class="company-name">
-                    <h2>AUTOMATIONEYE</h2>
-                </div>
-                <div class="banner-area">
-                    <div class="social-area">
-                        <ul>
-                            <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                            <li><a href="https://twitter.com/"><i class="bx bxl-twitter"></i></a></li>
-                            <li><a href="https://www.pinterest.com/"><i class="bx bxl-pinterest-alt"></i></a></li>
-                            <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="banner-title">
-                        <h1>Bringing <br> <span>ease</span> to you.</h1>
-                    </div>
+<div class="banner-area4">
+        <div class="background-text-slider">
+            <h2 class="marquee_text">Our agency make your happyness</h2>
+        </div>
+        <div class="scroll-down">
+            <a href="#home4-about-section">
+                Scroll Down
+                <svg width="18" height="18" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 1H12M12 1V13M12 1L0.5 12" />
+                </svg>
+            </a>
+        </div>
+        <div class="banner-video-area">
+            <img src="assets/img/home-4/rotate-text.svg" alt>
+            <a href="https://www.youtube.com/watch?v=u31qwQUeGuM" data-fancybox="gallery" class="video-popup">
+                <svg width="30" height="34" viewBox="0 0 30 34" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.3"
+                        d="M30 17.0012C30 16.0359 29.4735 15.1469 28.5906 14.6218L4.75661 0.46019C3.79257 -0.111681 2.61693 -0.153462 1.60777 0.351093C0.601772 0.855365 0 1.78612 0 2.83996V31.1609C0 32.2148 0.601723 33.1452 1.60931 33.6498C2.079 33.8837 2.5828 34 3.08665 34C3.66595 34 4.24144 33.8456 4.75628 33.5407L28.5903 19.3813C29.4734 18.8559 30 17.9669 30 17.0016V17.0012ZM27.7302 18.1537L3.89624 32.3131C3.42844 32.5905 2.85862 32.6093 2.36997 32.3668C1.88133 32.1225 1.58884 31.6719 1.58884 31.1607V2.83969C1.58884 2.32846 1.88133 1.8761 2.36997 1.63359C2.59834 1.52102 2.84346 1.46385 3.08699 1.46385C3.36811 1.46385 3.64734 1.53842 3.89658 1.68755L27.7306 15.8492C28.1646 16.1074 28.4135 16.5287 28.4135 17.0033C28.4131 17.4763 28.1642 17.8955 27.7302 18.1537Z" />
+                </svg>
+            </a>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-7">
                     <div class="banner-content">
-                        <div class="row">
-                            <div class="col-lg-5">
-                            <p>We are the leading Experts in Industrial Automation, Electrical, Mechanical and
+                        <h1>Bringing Ease
+                            <a href="#"></a><br>To You </h1>
+                        <p>We are the leading Experts in Industrial Automation, Electrical, Mechanical and
                             Instrumentation Support in Africa. With a reach of over half of the African geography, we
                             strive to bring ease to the manufacturing industry with our robust skillest of support,
                             remotely and onsite. </p>
-                                
-                            
+                        <div class="banner-btn">
+                            <a class="primary-btn5" href="service.html">
+                                <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.51038 32.6729C-0.990382 34.1837 -0.232333 37.9945 2.65612 38.4335C4.97848 38.7866 6.09439 41.4804 4.70164 43.3722C2.96938 45.7248 5.12803 48.9555 7.9646 48.2555C10.245 47.6925 12.3074 49.7548 11.7445 52.0354C11.0445 54.8721 14.2752 57.0306 16.6278 55.2984C18.5196 53.9057 21.2139 55.0216 21.5665 57.3439C22.0054 60.2322 25.8161 60.9904 27.3271 58.4896C28.5419 56.479 31.4581 56.479 32.6729 58.4896C34.1837 60.9904 37.9945 60.2323 38.4335 57.3439C38.7866 55.0215 41.4804 53.9056 43.3722 55.2984C45.7248 57.0306 48.9555 54.872 48.2555 52.0354C47.6925 49.755 49.7548 47.6925 52.0354 48.2555C54.872 48.9555 57.0306 45.7248 55.2984 43.3722C53.9057 41.4804 55.0216 38.7861 57.3439 38.4335C60.2322 37.9946 60.9904 34.1839 58.4896 32.6729C56.479 31.4581 56.479 28.5419 58.4896 27.3271C60.9904 25.8163 60.2323 22.0055 57.3439 21.5665C55.0215 21.2134 53.9056 18.5196 55.2984 16.6278C57.0306 14.2752 54.872 11.0445 52.0354 11.7445C49.7549 12.3075 47.6925 10.2452 48.2555 7.9646C48.9555 5.12795 45.7248 2.96938 43.3722 4.70164C41.4804 6.09426 38.7861 4.9784 38.4335 2.65612C37.9946 -0.23224 34.1839 -0.990422 32.6729 1.51038C31.4581 3.52095 28.5419 3.52095 27.3271 1.51038C25.8163 -0.990382 22.0055 -0.232333 21.5665 2.65612C21.2134 4.97848 18.5196 6.09439 16.6278 4.70164C14.2752 2.96938 11.0445 5.12803 11.7445 7.9646C12.3075 10.245 10.2452 12.3074 7.9646 11.7445C5.12795 11.0445 2.96938 14.2752 4.70164 16.6278C6.09426 18.5196 4.9784 21.2139 2.65612 21.5665C-0.232239 22.0054 -0.990423 25.8161 1.51038 27.3271C3.52095 28.5419 3.52095 31.4581 1.51038 32.6729Z" />
+                                </svg>
+                                <div class="content">
+                                    VIEW all work
+                                    <span>
+                                        <svg width="12" height="12" viewBox="0 0 13 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 1H12M12 1V13M12 1L0.5 12" />
+                                        </svg>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-flex jsutify-content-center">
+                    <div class="banner-img">
+                        <div class="banner-big-img">
+                            <img class="img-fluid magnetic-item" src="assets/img/home-4/home4-banner-image1.png" alt>
+                        </div>
+                        <div class="banner-sm-img">
+                            <img class="img-fluid magnetic-item" src="assets/img/home-4/home4-banner-image2.png" alt>
+                            <div class="down-arrow">
+                                <img class="magnetic-item" src="assets/img/home-4/down-arow.png" alt>
                             </div>
-                            <div class="col-lg-7">
-                                <div class="banner-img-wrap">
-                                    <div class="swiper banner5-slider">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="banner-img">
-                                                    <img class="img-fluid" src="assets/img/home-5/h5-banner-img1.png"
-                                                        alt>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="banner-img">
-                                                    <img class="img-fluid" src="assets/img/home-5/h5-banner-img2.png"
-                                                        alt>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="banner-img">
-                                                    <img class="img-fluid" src="assets/img/home-5/h5-banner-img3.png"
-                                                        alt>
-                                                </div>
-                                            </div>
-                                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="home4-about-section sec-mar" id="home4-about-section">
+        <div class="container">
+            <div class="row g-lg-4 gy-5">
+                <div class="col-lg-6 wow animate fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="about-left-img-wrap">
+                        <div class="big-img magnetic-item">
+                            <img class="img-fluid" src="assets/img/home-4/about-image-01.png" alt>
+                        </div>
+                        <div class="sm-img  magnetic-item">
+                            <img class="img-fluid" src="assets/img/home-4/about-image-02.png" alt>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow animate fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
+                    <div class="banner-right-content">
+                        <div class="section-title-4">
+                            <span>VISION</span>
+                            <h2>Ensure Superlative <span>Support</span> with Technology.</h2>
+                            <p>Automation Eye Limited is a global technology company committed to providing
+                                comprehensive solutions across various engineering and technological domains. With a
+                                focus on excellence, innovation, and community building, we aim to be a leader in the
+                                industry. Our diverse range of services includes:</p>
+
+                            <div class="about-btn">
+                                <a class="primary-btn5" href="about.html">
+                                    <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1.51038 32.6729C-0.990382 34.1837 -0.232333 37.9945 2.65612 38.4335C4.97848 38.7866 6.09439 41.4804 4.70164 43.3722C2.96938 45.7248 5.12803 48.9555 7.9646 48.2555C10.245 47.6925 12.3074 49.7548 11.7445 52.0354C11.0445 54.8721 14.2752 57.0306 16.6278 55.2984C18.5196 53.9057 21.2139 55.0216 21.5665 57.3439C22.0054 60.2322 25.8161 60.9904 27.3271 58.4896C28.5419 56.479 31.4581 56.479 32.6729 58.4896C34.1837 60.9904 37.9945 60.2323 38.4335 57.3439C38.7866 55.0215 41.4804 53.9056 43.3722 55.2984C45.7248 57.0306 48.9555 54.872 48.2555 52.0354C47.6925 49.755 49.7548 47.6925 52.0354 48.2555C54.872 48.9555 57.0306 45.7248 55.2984 43.3722C53.9057 41.4804 55.0216 38.7861 57.3439 38.4335C60.2322 37.9946 60.9904 34.1839 58.4896 32.6729C56.479 31.4581 56.479 28.5419 58.4896 27.3271C60.9904 25.8163 60.2323 22.0055 57.3439 21.5665C55.0215 21.2134 53.9056 18.5196 55.2984 16.6278C57.0306 14.2752 54.872 11.0445 52.0354 11.7445C49.7549 12.3075 47.6925 10.2452 48.2555 7.9646C48.9555 5.12795 45.7248 2.96938 43.3722 4.70164C41.4804 6.09426 38.7861 4.9784 38.4335 2.65612C37.9946 -0.23224 34.1839 -0.990422 32.6729 1.51038C31.4581 3.52095 28.5419 3.52095 27.3271 1.51038C25.8163 -0.990382 22.0055 -0.232333 21.5665 2.65612C21.2134 4.97848 18.5196 6.09439 16.6278 4.70164C14.2752 2.96938 11.0445 5.12803 11.7445 7.9646C12.3075 10.245 10.2452 12.3074 7.9646 11.7445C5.12795 11.0445 2.96938 14.2752 4.70164 16.6278C6.09426 18.5196 4.9784 21.2139 2.65612 21.5665C-0.232239 22.0054 -0.990423 25.8161 1.51038 27.3271C3.52095 28.5419 3.52095 31.4581 1.51038 32.6729Z" />
+                                    </svg>
+                                    <div class="content">
+                                        About us More
+                                        <span>
+                                            <svg width="12" height="12" viewBox="0 0 13 13" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1H12M12 1V13M12 1L0.5 12"></path>
+                                            </svg>
+                                        </span>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="banner-text-slider">
-                        <h2 class="marquee_text"><img src="assets/img/home-5/star.svg" alt>We are Design Agency<img
-                                src="assets/img/home-5/star.svg" alt>Creative & Clean Design<img
-                                src="assets/img/home-5/star.svg" alt>We Help To Achieve <img
-                                src="assets/img/home-5/star.svg" alt>We are Design Agency<img
-                                src="assets/img/home-5/star.svg" alt>Creative & Clean Design<img
-                                src="assets/img/home-5/star.svg" alt>We Help To Achieve<img
-                                src="assets/img/home-5/star.svg" alt>We are Design Agency<img
-                                src="assets/img/home-5/star.svg" alt>Creative & Clean Design<img
-                                src="assets/img/home-5/star.svg" alt>We Help To Achieve <img
-                                src="assets/img/home-5/star.svg" alt>We are Design Agency<img
-                                src="assets/img/home-5/star.svg" alt>Creative & Clean Design<img
-                                src="assets/img/home-5/star.svg" alt>We Help To Achieve</h2>
-                    </div>
                 </div>
             </div>
-            <div class="home5-about-area pt-130 mb-130" id="home5-about-area">
-                <div class="container">
-                    <div class="row g-4 gy-5">
-                        <div class="col-lg-6 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div class="about-content">
-                                <div class="section-title-5">
-                                    <span>Our Values & Culture</span>
-                                    <h2>Who We Are</h2>
-                                </div>
-                                <p>Automation Eye Limited is a global technology company committed to providing comprehensive solutions across various engineering and technological domains. With a focus on excellence, innovation, and community building, we aim to be a leader in the industry.</p>
-                                <ul class="about-featue">
-                                    <li>
-                                        <svg width="15" height="15" viewBox="0 0 15 15"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
-                                        </svg>
-                                        Excellence
-                                    </li>
-                                    <li>
-                                        <svg width="15" height="15" viewBox="0 0 15 15"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
-                                        </svg>
-                                        Innovation
-                                    </li>
-                                    <li>
-                                        <svg width="15" height="15" viewBox="0 0 15 15"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
-                                        </svg>
-                                        Integrity
-                                    </li>
-                                    <li>
-                                        <svg width="15" height="15" viewBox="0 0 15 15"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
-                                        </svg>
-                                        Collaboration
-                                    </li>
+            <div class="about-bottom">
+                <div class="row g-lg-4 gy-5">
+                    <div class="col-lg-6 wow animate fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="about-left-content">
+                            <div class="section-title-4">
+                                <h2>Unlock the <span>potential</span> of your business.</h2>
+                                <p></p>
+                            </div>
+                            <div class="about-feature">
+                                <ul>
+                                    <li><img src="assets/img/home-4/about-feature-vec.svg" alt>Creative Strategy</li>
+                                    <li><img src="assets/img/home-4/about-feature-vec.svg" alt>Unique Production</li>
+                                    <li><img src="assets/img/home-4/about-feature-vec.svg" alt>Rebranding Design</li>
+                                    <li><img src="assets/img/home-4/about-feature-vec.svg" alt>Corporate Identity</li>
                                 </ul>
-                                <p>Collaboration is key to our success. We believe in the power of teamwork, diversity, and inclusion to foster innovation and drive meaningful change. By fostering an environment where ideas are freely shared, and individuals are encouraged to contribute their unique perspectives, we harness the collective intelligence of our global community to solve complex challenges and achieve shared goals.</p>
                             </div>
                         </div>
-                        <div class="col-lg-6 wow animate fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <div class="about-img-wrap">
-                                <div class="about-img magnetic-item">
-                                    <img class="img-fluid" src="assets/img/home-5/about-img-1.png" alt>
-                                </div>
-                                <div class="about-video-area magnetic-item">
-                                    <img class="img-fluid" src="assets/img/home-5/about-img-2.png" alt>
-                                    <a href="https://www.youtube.com/watch?v=u31qwQUeGuM&amp;ab_channel=JoomlaTemplate"
-                                        data-fancybox="gallery" class="about-video-btn video-popup">
-                                        <i class="bi bi-play"></i>
-                                    </a>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="col-lg-6 wow animate fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
+                        <div class="about-right-img d-flex justify-content-center  magnetic-item">
+                            <img class="img-fluid" src="assets/img/home-4/about-image-03.png" alt>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="home4-services-section">
+        </div>
+    </div>
+
+
+    <div class="home4-services-section">
         <div class="container-xl container-fluid">
             <div class="row wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <div class="col-lg-12">
@@ -393,441 +399,222 @@
             <div class="row wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <div class="view-btn">
-                        <a class="primary-btn3" href="/services">View All Services</a>
+                        <a class="primary-btn3" href="service.html">View All Services</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-            <div class="home5-process-area mb-130">
-                <div class="container">
-                    <div class="row mb-55 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div class="col-lg-12 d-flex align-items-center justify-content-between flex-wrap gap-2">
-                            <div class="section-title-5">
-                                <span>THE PROCESS</span>
-                                <h2>What We Do</h2>
-                            </div>
-                            <div class="section-content">
-                                <p></p>
-                            </div>
-                        </div>
+
+
+    <div class="home4-work-section sec-mar">
+        <div class="container">
+            <div class="row wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div class="col-lg-12 mb-55 d-flex align-items-center justify-content-between flex-wrap gap-3">
+                    <div class="section-title-4 three">
+                        <span>Examples of Our Work</span>
+                        <h2>Every <span>great company</span> begins with a great story.</h2>
                     </div>
-                    <div class="row g-lg-4 gy-5 justify-content-center">
-                        <div class="col-lg-4 col-sm-6 wow animate fadeInUp" data-wow-delay="200ms"
-                            data-wow-duration="1500ms">
-                            <div class="single-process">
-                                <div class="sl">
-                                    <h2>01</h2>
-                                </div>
-                                <div class="content">
-                                    <h3>Understanding and Analysis</h3>
-                                    <p>The first step in our work process involves thoroughly understanding the requirements and objectives of the project or task at hand. This includes conducting comprehensive analyses, gathering relevant data, and engaging with stakeholders to gain insights into their needs and expectations. By taking the time to understand the scope and context of the work, we lay a solid foundation for effective decision-making and solution development.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 wow animate fadeInUp" data-wow-delay="300ms"
-                            data-wow-duration="1500ms">
-                            <div class="single-process">
-                                <div class="sl">
-                                    <h2>02</h2>
-                                </div>
-                                <div class="content">
-                                    <h3>Strategic Planning and Execution</h3>
-                                    <p>Once we have a clear understanding of the project requirements, we develop a strategic plan outlining the key milestones, timelines, resources, and deliverables. This involves leveraging our expertise, creativity, and innovative thinking to design tailored solutions that address the specific challenges and opportunities identified during the analysis phase. With a well-defined plan in place, we execute tasks with precision, agility, and attention to detail, continuously monitoring progress and adjusting course as needed to ensure alignment with project goals and objectives.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 wow animate fadeInUp" data-wow-delay="400ms"
-                            data-wow-duration="1500ms">
-                            <div class="single-process">
-                                <div class="sl">
-                                    <h2>03</h2>
-                                </div>
-                                <div class="content">
-                                    <h3>Collaboration and Continuous Improvement</h3>
-                                    <p>Collaboration is integral to our work process. We foster a collaborative environment where cross-functional teams work together synergistically, leveraging their diverse skills, knowledge, and perspectives to achieve common objectives. Through open communication, feedback loops, and knowledge sharing, we encourage continuous improvement and learning, driving innovation and excellence in everything we do. By embracing a culture of continuous learning and adaptation, we stay agile and responsive to evolving challenges and opportunities, positioning us for long-term success in an ever-changing world.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="achievement-area">
-                        <div class="row g-lg-4 gy-5">
-                            <div class="col-xl-7 col-lg-6 d-flex align-items-center wow animate fadeInLeft"
-                                data-wow-delay="200ms" data-wow-duration="1500ms">
-                                <div class="achievement-content">
-                                    <h2>#1</h2>
-                                    <h3>Best Automation Services And Solutions Company <span>Since <span
-                                                class="year">2021.</span></span></h3>
-                                </div>
-                            </div>
-                            <div class="col-xl-5 col-lg-6 wow animate fadeInRight" data-wow-delay="300ms"
-                                data-wow-duration="1500ms">
-                                <div class="achievement-img magnetic-item">
-                                    <img class="img-fluid" src="assets/img/home-5/achievement-img.png" alt>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-           
-            <div class="home5-case-study mb-130">
-                <div class="container">
-                    <div class="row mb-55  wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div class="col-lg-12 d-flex align-items-center justify-content-between flex-wrap gap-4">
-                            <div class="section-title-5">
-                                <span>CASE STUDY</span>
-                                <h2>Success Stories</h2>
-                            </div>
-                            <div class="view-all-btn">
-                                <a class="primary-btn3" href="case-study.html">View All Case</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="single-case-study wow animate fadeInUp" data-wow-delay="200ms"
-                                data-wow-duration="1500ms">
-                                <div class="row g-4">
-                                    <div class="col-lg-5 d-flex align-items-center">
-                                        <div class="case-study-content">
-                                            <span>Web Development</span>
-                                            <h3><a href="case-study-details.html">Building a Scalable Cloud
-                                                    Infrastructure</a></h3>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-7">
-                                        <div class="case-study-img-and-btn">
-                                            <div class="case-img magnetic-item">
-                                                <img class="img-fluid" src="assets/img/home-5/home5-case-01.png" alt>
-                                            </div>
-                                            <div class="learn-more-btn">
-                                                <a class="primary-btn8" href="case-study-details.html">
-                                                    <svg width="12" height="12" viewBox="0 0 13 13" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M0 1H12M12 1V13M12 1L0.5 12"></path>
-                                                    </svg>
-                                                    LEARN MORE
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-case-study wow animate fadeInUp" data-wow-delay="300ms"
-                                data-wow-duration="1500ms">
-                                <div class="row g-4">
-                                    <div class="col-lg-5 d-flex align-items-center">
-                                        <div class="case-study-content">
-                                            <span>Software development</span>
-                                            <h3><a href="case-study-details.html">Leveraging Data Analytics for Business
-                                                    Insights</a></h3>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-7">
-                                        <div class="case-study-img-and-btn">
-                                            <div class="case-img magnetic-item">
-                                                <img class="img-fluid" src="assets/img/home-5/home5-case-02.png" alt>
-                                            </div>
-                                            <div class="learn-more-btn">
-                                                <a class="primary-btn8" href="case-study-details.html">
-                                                    <svg width="12" height="12" viewBox="0 0 13 13" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M0 1H12M12 1V13M12 1L0.5 12"></path>
-                                                    </svg>
-                                                    LEARN MORE
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-case-study wow animate fadeInUp" data-wow-delay="400ms"
-                                data-wow-duration="1500ms">
-                                <div class="row g-4">
-                                    <div class="col-lg-5 d-flex align-items-center">
-                                        <div class="case-study-content">
-                                            <span>Digital marketing</span>
-                                            <h3><a href="case-study-details.html">Optimizing IT Infrastructure for Cost
-                                                    Efficiency</a></h3>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-7">
-                                        <div class="case-study-img-and-btn">
-                                            <div class="case-img magnetic-item">
-                                                <img class="img-fluid" src="assets/img/home-5/home5-case-03.png" alt>
-                                            </div>
-                                            <div class="learn-more-btn">
-                                                <a class="primary-btn8" href="case-study-details.html">
-                                                    <svg width="12" height="12" viewBox="0 0 13 13" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M0 1H12M12 1V13M12 1L0.5 12"></path>
-                                                    </svg>
-                                                    LEARN MORE
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-case-study wow animate fadeInUp" data-wow-delay="500ms"
-                                data-wow-duration="1500ms">
-                                <div class="row g-4">
-                                    <div class="col-lg-5 d-flex align-items-center">
-                                        <div class="case-study-content">
-                                            <span>Data analytics</span>
-                                            <h3><a href="case-study-details.html">Enhancing Customer Engagement</a></h3>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-7">
-                                        <div class="case-study-img-and-btn">
-                                            <div class="case-img magnetic-item">
-                                                <img class="img-fluid" src="assets/img/home-5/home5-case-04.png" alt>
-                                            </div>
-                                            <div class="learn-more-btn">
-                                                <a class="primary-btn8" href="case-study-details.html">
-                                                    <svg width="12" height="12" viewBox="0 0 13 13" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M0 1H12M12 1V13M12 1L0.5 12"></path>
-                                                    </svg>
-                                                    LEARN MORE
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="home5-testimonial-area mb-130">
-                <div class="container">
-                    <div class="row g-lg-4 gy-5 align-items-center">
-                        <div class="col-lg-4 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div class="section-title-5">
-                                <span>CLIENT REVIEW</span>
-                                <h2>Happy Client</h2>
-                                <div class="testimolial-left">
-                                    <p>Integer purus odio, placerat nec rhoncus in, ullamcorperon nec doloroei. aptent
-                                        taciti sociosqu ad litora
-                                        torquent pero conubia nostra persento.</p>
-                                    <div class="customar-review">
-                                        <h6>Review On</h6>
-                                        <ul>
-                                            <li>
-                                                <a href="#" class="single-review">
-                                                    <div class="icon">
-                                                        <img src="assets/img/home-5/trustpilot-1.svg" alt>
-                                                    </div>
-                                                    <ul class="star">
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li>5.0/5.0</li>
-                                                    </ul>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="single-review">
-                                                    <div class="icon">
-                                                        <img src="assets/img/home-5/google-1.svg" alt>
-                                                    </div>
-                                                    <ul class="star">
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li><i class="bi bi-star-fill"></i></li>
-                                                        <li>5.0/5.0</li>
-                                                    </ul>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-8 position-relative wow animate fadeInUp" data-wow-delay="300ms"
-                            data-wow-duration="1500ms">
-                            <div class="swiper home5-testimonial-slider">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="testimonial-wrapper">
-                                            <div class="testimonial-top">
-                                                <div class="author-img">
-                                                    <img src="assets/img/home-5/author-img.png" alt>
-                                                </div>
-                                                <div class="review">
-                                                    <img src="assets/img/home-5/trustpilot-2.svg" alt>
-                                                </div>
-                                            </div>
-                                            <div class="testimonial-content">
-                                                <p>“I cannot express enough how satisfied I am with the web developmet
-                                                    services provided by Egens Lab. They are very good and User friendly
-                                                    and they work very nice and creative”</p>
-                                            </div>
-                                            <div class="testimonial-btm">
-                                                <div class="author-content">
-                                                    <h4>Watson Bekaryn</h4>
-                                                    <span>CEO At atlantis.com</span>
-                                                </div>
-                                                <div class="quote-icon">
-                                                    <img src="assets/img/home-5/left-quote.svg" alt>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="testimonial-wrapper">
-                                            <div class="testimonial-top">
-                                                <div class="author-img">
-                                                    <img src="assets/img/home-5/author-img2.png" alt>
-                                                </div>
-                                                <div class="review">
-                                                    <img src="assets/img/home-5/trustpilot-2.svg" alt>
-                                                </div>
-                                            </div>
-                                            <div class="testimonial-content">
-                                                <p>“I cannot express enough how satisfied I am with the web developmet
-                                                    services provided by Egens Lab. They are very good and User friendly
-                                                    and they work very nice and creative”</p>
-                                            </div>
-                                            <div class="testimonial-btm">
-                                                <div class="author-content">
-                                                    <h4>Doland Skrml</h4>
-                                                    <span>CEO At atlantis.com</span>
-                                                </div>
-                                                <div class="quote-icon">
-                                                    <img src="assets/img/home-5/left-quote.svg" alt>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="testimonial-wrapper">
-                                            <div class="testimonial-top">
-                                                <div class="author-img">
-                                                    <img src="assets/img/home-5/author-img3.png" alt>
-                                                </div>
-                                                <div class="review">
-                                                    <img src="assets/img/home-5/trustpilot-2.svg" alt>
-                                                </div>
-                                            </div>
-                                            <div class="testimonial-content">
-                                                <p>“I cannot express enough how satisfied I am with the web developmet
-                                                    services provided by Egens Lab. They are very good and User friendly
-                                                    and they work very nice and creative”</p>
-                                            </div>
-                                            <div class="testimonial-btm">
-                                                <div class="author-content">
-                                                    <h4>Josh Bush</h4>
-                                                    <span>CEO At atlantis.com</span>
-                                                </div>
-                                                <div class="quote-icon">
-                                                    <img src="assets/img/home-5/left-quote.svg" alt>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-btn-group">
-                                <div class="swiper-btn prevbtn3">
-                                    <i class="bi bi-arrow-up"></i>
-                                </div>
-                                <div class="swiper-btn nextbtn3">
-                                    <i class="bi bi-arrow-down"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="home5-award-area mb-130">
-                <div class="container">
-                    <div class="row mb-55 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div class="col-lg-12 d-flex align-items-center justify-content-between flex-wrap gap-2">
-                            <div class="section-title-5">
-                                <span>Award-Winning</span>
-                                <h2>Our Accolades</h2>
-                            </div>
-                            <div class="section-content">
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12 wow animate fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <div class="award-wrapper">
-                                <table>
-                                    <thead>
-                                        <tr>
-                                            <td>Awards</td>
-                                            <td>Category</td>
-                                            <td>Year</td>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td data-label="Awwards">AWARDS / Site of the Day <img
-                                                    src="assets/img/home-5/home5-award-01.svg" alt></td>
-                                            <td data-label="Project">Cascadia Creative</td>
-                                            <td data-label="Year">2022</td>
-                                        </tr>
-                                        <tr>
-                                            <td data-label="Awwards">CSSDesignAwards / Design of the Year <img
-                                                    src="assets/img/home-5/home5-award-02.svg" alt></td>
-                                            <td data-label="Project">Oliver Agency</td>
-                                            <td data-label="Year">2022</td>
-                                        </tr>
-                                        <tr>
-                                            <td data-label="Awwards">TheFWA / FWA of the Day <img
-                                                    src="assets/img/home-5/home5-award-03.svg" alt></td>
-                                            <td data-label="Project">Cortana Corporate</td>
-                                            <td data-label="Year">2022</td>
-                                        </tr>
-                                        <tr>
-                                            <td data-label="Awwards">Behance / Web Design Served <img
-                                                    src="assets/img/home-5/home5-award-04.svg" alt></td>
-                                            <td data-label="Project">Details Agency</td>
-                                            <td data-label="Year">2022</td>
-                                        </tr>
-                                        <tr>
-                                            <td data-label="Awwards">AWARDS / Nominated Site of the Year <img
-                                                    src="assets/img/home-5/home5-award-05.svg" alt></td>
-                                            <td data-label="Project">IT Company</td>
-                                            <td data-label="Year">2022</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="collaborate-section mb-130">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div class="collaborate-wrapper">
-                                <div class="section-title-5">
-                                    <span>LET’S COLLABORATE</span>
-                                    <h2>Ready to <br>
-                                        <span>work with us?</span></h2>
-                                    <div class="get-btn">
-                                        <a class="primary-btn3" href="/contact">Get a quote</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="view-btn">
+                        <a class="primary-btn3" href="project.html">View All WORK</a>
                     </div>
                 </div>
             </div>
             
-         
+        </div>
+    </div>
 
-            @endsection
+
+
+
+    <div class="home4-testimonial-section  sec-mar">
+        <div class="container">
+            <div class="row wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div class="col-lg-12">
+                    <div class="section-title-4 text-center two">
+                        <span>Client Experiences</span>
+                        <h2>Appreciations From Our <span>Satisfied</span> Customers.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-7 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div class="testimonial-card4">
+                        <div class="quate-icon">
+                            <img src="assets/img/home-4/left-quote.svg" alt>
+                        </div>
+                        <div class="testimonial-top">
+                            <div class="author-area">
+                                <div class="author-img">
+                                    <img src="assets/img/home-4/h4-testi-01.png" alt>
+                                </div>
+                                <div class="author-content">
+                                    <h4>Mateo Daniel</h4>
+                                    <span>CEO At atlantis.com</span>
+                                </div>
+                            </div>
+                            <div class="review-date-and-time">
+                                <p>May 9, 2023</p>
+                                <span>10.30 PM</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>“Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. and utoor
+                                himenaeos. Praesent nec neque at dolor venenatis consectetur european gon
+                                Donec lacinia placerat felis non aliquam.”</p>
+                        </div>
+                        <div class="testimonial-btm">
+                            <div class="review-left">
+                                <img src="assets/img/home-4/trustpilot.svg" alt>
+                            </div>
+                            <div class="review-right">
+                                <img src="assets/img/home-4/trastpilot-star.svg" alt>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 mt-35 wow animate fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="testimonial-card4">
+                        <div class="quate-icon">
+                            <img src="assets/img/home-4/left-quote.svg" alt>
+                        </div>
+                        <div class="testimonial-top">
+                            <div class="author-area">
+                                <div class="author-img">
+                                    <img src="assets/img/home-4/h4-testi-02.png" alt>
+                                </div>
+                                <div class="author-content">
+                                    <h4>Luke Julian</h4>
+                                    <span>CEO At astra.com</span>
+                                </div>
+                            </div>
+                            <div class="review-date-and-time">
+                                <p>May 9, 2023</p>
+                                <span>10.30 PM</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>“Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. and utoor
+                                himenaeos. Praesent nec neque at dolor venenatis consectetur european gon
+                                Donec lacinia placerat felis non aliquam.”</p>
+                        </div>
+                        <div class="testimonial-btm">
+                            <div class="review-left">
+                                <img src="assets/img/home-4/google.svg" alt>
+                            </div>
+                            <div class="review-right">
+                                <ul class="star">
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 mt--35 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div class="testimonial-card4">
+                        <div class="quate-icon">
+                            <img src="assets/img/home-4/left-quote.svg" alt>
+                        </div>
+                        <div class="testimonial-top">
+                            <div class="author-area">
+                                <div class="author-img">
+                                    <img src="assets/img/home-4/h4-testi-03.png" alt>
+                                </div>
+                                <div class="author-content">
+                                    <h4>Elias Josiah</h4>
+                                    <span>CEO At gremio.com</span>
+                                </div>
+                            </div>
+                            <div class="review-date-and-time">
+                                <p>May 9, 2023</p>
+                                <span>10.30 PM</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>“Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. and utoor
+                                himenaeos. Praesent nec neque at dolor venenatis consectetur european gon
+                                Donec lacinia placerat felis non aliquam.”</p>
+                        </div>
+                        <div class="testimonial-btm">
+                            <div class="review-left">
+                                <img src="assets/img/home-4/google.svg" alt>
+                            </div>
+                            <div class="review-right">
+                                <ul class="star">
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 wow animate fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <div class="testimonial-card4">
+                        <div class="quate-icon">
+                            <img src="assets/img/home-4/left-quote.svg" alt>
+                        </div>
+                        <div class="testimonial-top">
+                            <div class="author-area">
+                                <div class="author-img">
+                                    <img src="assets/img/home-4/h4-testi-04.png" alt>
+                                </div>
+                                <div class="author-content">
+                                    <h4>Colton Roman</h4>
+                                    <span>CEO At powogaz.com</span>
+                                </div>
+                            </div>
+                            <div class="review-date-and-time">
+                                <p>May 9, 2023</p>
+                                <span>10.30 PM</span>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>“Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. and utoor
+                                himenaeos. Praesent nec neque at dolor venenatis consectetur european gon
+                                Donec lacinia placerat felis non aliquam.”</p>
+                        </div>
+                        <div class="testimonial-btm">
+                            <div class="review-left">
+                                <img src="assets/img/home-4/trustpilot.svg" alt>
+                            </div>
+                            <div class="review-right">
+                                <img src="assets/img/home-4/trastpilot-star.svg" alt>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="home4-contact-area pt-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contact-wrapper text-center magnetic-item">
+                        <h2 class="title">Work With Us</h2>
+                        <h2 class="content">Let’s Talk</h2>
+                        <div class="contact-btn">
+                            <a class="magnetic-item" href="contact.html">
+                                Contact With Us.
+                                <svg width="32" height="32" viewBox="0 0 13 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 1H12M12 1V13M12 1L0.5 12"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @endsection
