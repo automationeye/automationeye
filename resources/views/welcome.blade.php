@@ -8,10 +8,10 @@
                 <div class="banner-area">
                     <div class="social-area">
                         <ul>
-                            <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                            <li><a href="https://linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+                            <li><a href="https://www.fb.com/automationeye/"><i class="bx bxl-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/automationhub/"><i class="bx bxl-linkedin"></i></a></li>
 
-                            <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a></li>
+                            <li><a href="https://www.instagram.com/automationeye/"><i class="bx bxl-instagram"></i></a></li>
                         </ul>
                     </div>
                     <div class="banner-title">
@@ -610,9 +610,7 @@
                                 <span>CLIENT REVIEW</span>
                                 <h2>Happy Client</h2>
                                 <div class="testimolial-left">
-                                    <p>Integer purus odio, placerat nec rhoncus in, ullamcorperon nec doloroei. aptent
-                                        taciti sociosqu ad litora
-                                        torquent pero conubia nostra persento.</p>
+                                    <p>Their expertise in AI-driven systems, IoT integration, and process automation has significantly improved our efficiency and reduced operational costs</p>
                                     <div class="customar-review">
                                         <h6>Review On</h6>
                                         <ul>
@@ -658,79 +656,70 @@
                                     <div class="swiper-slide">
                                         <div class="testimonial-wrapper">
                                             <div class="testimonial-top">
-                                                <div class="author-img">
-                                                    <img src="assets/img/home-5/author-img.png" alt>
-                                                </div>
+                                                
                                                 <div class="review">
                                                     <img src="assets/img/home-5/trustpilot-2.svg" alt>
                                                 </div>
                                             </div>
                                             <div class="testimonial-content">
-                                                <p>“I cannot express enough how satisfied I am with the web developmet
-                                                    services provided by Egens Lab. They are very good and User friendly
-                                                    and they work very nice and creative”</p>
-                                            </div>
-                                            <div class="testimonial-btm">
-                                                <div class="author-content">
-                                                    <h4>Watson Bekaryn</h4>
-                                                    <span>CEO At atlantis.com</span>
-                                                </div>
-                                                <div class="quote-icon">
-                                                    <img src="assets/img/home-5/left-quote.svg" alt>
-                                                </div>
-                                            </div>
+    <p>“Automation Eye Limited has completely revolutionized our business operations with their smart automation solutions. Their AI-powered systems and IoT integrations are highly efficient, reliable, and tailored to our needs. The team is professional, innovative, and always ready to provide top-notch support. I highly recommend them to any business looking to embrace automation and boost productivity!”</p>
+</div>
+<div class="testimonial-btm">
+    <div class="author-content">
+        <h4>James Mwangi</h4>
+        <span>CEO at SmartTech Solutions</span>
+    </div>
+    <div class="quote-icon">
+        <img src="assets/img/home-5/left-quote.svg" alt>
+    </div>
+</div>
+
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="testimonial-wrapper">
                                             <div class="testimonial-top">
-                                                <div class="author-img">
-                                                    <img src="assets/img/home-5/author-img2.png" alt>
-                                                </div>
+                                                
                                                 <div class="review">
                                                     <img src="assets/img/home-5/trustpilot-2.svg" alt>
                                                 </div>
                                             </div>
                                             <div class="testimonial-content">
-                                                <p>“I cannot express enough how satisfied I am with the web developmet
-                                                    services provided by Egens Lab. They are very good and User friendly
-                                                    and they work very nice and creative”</p>
-                                            </div>
-                                            <div class="testimonial-btm">
-                                                <div class="author-content">
-                                                    <h4>Doland Skrml</h4>
-                                                    <span>CEO At atlantis.com</span>
-                                                </div>
-                                                <div class="quote-icon">
-                                                    <img src="assets/img/home-5/left-quote.svg" alt>
-                                                </div>
-                                            </div>
+    <p>“Working with Automation Eye Limited has been a game-changer for our company. Their automation solutions have streamlined our processes, reduced downtime, and increased efficiency. The team's expertise and commitment to delivering quality solutions are truly commendable. I highly recommend them for any business looking to stay ahead with smart automation.”</p>
+</div>
+<div class="testimonial-btm">
+    <div class="author-content">
+        <h4>Faith Kamau</h4>
+        <span>Operations Manager at TechSavvy Kenya</span>
+    </div>
+    <div class="quote-icon">
+        <img src="assets/img/home-5/left-quote.svg" alt>
+    </div>
+</div>
+
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="testimonial-wrapper">
                                             <div class="testimonial-top">
-                                                <div class="author-img">
-                                                    <img src="assets/img/home-5/author-img3.png" alt>
-                                                </div>
+                                               
                                                 <div class="review">
                                                     <img src="assets/img/home-5/trustpilot-2.svg" alt>
                                                 </div>
                                             </div>
                                             <div class="testimonial-content">
-                                                <p>“I cannot express enough how satisfied I am with the web developmet
-                                                    services provided by Egens Lab. They are very good and User friendly
-                                                    and they work very nice and creative”</p>
-                                            </div>
-                                            <div class="testimonial-btm">
-                                                <div class="author-content">
-                                                    <h4>Josh Bush</h4>
-                                                    <span>CEO At atlantis.com</span>
-                                                </div>
-                                                <div class="quote-icon">
-                                                    <img src="assets/img/home-5/left-quote.svg" alt>
-                                                </div>
-                                            </div>
+    <p>“Automation Eye Limited has exceeded our expectations with their top-tier automation solutions. Their expertise in AI and IoT has helped us optimize workflows, improve efficiency, and enhance overall productivity. The team is knowledgeable, responsive, and truly understands our business needs. I highly recommend their services to any company looking to embrace automation.”</p>
+</div>
+<div class="testimonial-btm">
+    <div class="author-content">
+        <h4>Kevin Otieno</h4>
+        <span>Managing Director at Innovate Kenya</span>
+    </div>
+    <div class="quote-icon">
+        <img src="assets/img/home-5/left-quote.svg" alt>
+    </div>
+</div>
+
                                         </div>
                                     </div>
                                 </div>
