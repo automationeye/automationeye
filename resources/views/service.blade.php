@@ -167,13 +167,7 @@
                 </div>
                
             </div>
-            <div class="row wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <div class="view-btn">
-                        <a class="primary-btn3" href="service.html">View All Services</a>
-                    </div>
-                </div>
-            </div>
+           
         </div>
     </div>
 
