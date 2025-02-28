@@ -41,12 +41,20 @@
                                         href="https://demo-egenslab.b-cdn.net/cdn-cgi/l/email-protection#7e5e171018113e0d0b0e0e110c0a501d1113"><span
                                             class="__cf_email__"
                                             data-cfemail="670e09010827141217170815134904080a">recruitment@automationeye.com</span></a>
-                                </div>
+                                            <a
+                                        href="https://demo-egenslab.b-cdn.net/cdn-cgi/l/email-protection#7e5e171018113e0d0b0e0e110c0a501d1113"><span
+                                            class="__cf_email__"
+                                            data-cfemail="670e09010827141217170815134904080a">service@automationeye.com</span></a>
+                                            <a
+                                        href="https://demo-egenslab.b-cdn.net/cdn-cgi/l/email-protection#7e5e171018113e0d0b0e0e110c0a501d1113"><span
+                                            class="__cf_email__"
+                                            data-cfemail="670e09010827141217170815134904080a">training@automationeye.com</span></a>
+                                        </div>
                             </div>
                         </div>
                         <div class="follow-area">
                             <h5 class="blog-widget-title">Follow Us</h5>
-                            <p class="para">Follow us on Social Network</p>
+                            
                             <div class="blog-widget-body">
                                 <ul class="follow-list d-flex flex-row align-items-start gap-4">
                                     <li><a href="https://www.fb.com/automationeye/"><i class="bx bxl-facebook"></i></a></li>

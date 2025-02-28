@@ -16,7 +16,7 @@
                 <div class="col-12">
                     <div class="breadcrumb-wrapper">
                         <div class="breadcrumb-cnt">
-                            <span>Careere</span>
+                            <span>Careers</span>
                             <h1>"No careers at the moment"</h1>
                             <div class="breadcrumb-list">
                                 <a href="index.html">Home</a><img src="assets/img/inner-pages/breadcrumb-arrow.svg" alt>
