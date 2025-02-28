@@ -9,8 +9,8 @@
                     <div class="social-area">
                         <ul>
                             <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                            <li><a href="https://twitter.com/"><i class="bx bxl-twitter"></i></a></li>
-                            <li><a href="https://www.pinterest.com/"><i class="bx bxl-pinterest-alt"></i></a></li>
+                            <li><a href="https://linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+
                             <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a></li>
                         </ul>
                     </div>
