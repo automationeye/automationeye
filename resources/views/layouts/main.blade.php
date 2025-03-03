@@ -188,57 +188,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 d-flex justify-content-lg-start justify-content-sm-end">
-                    <div class="footer-widget">
-                        <div class="widget-title">
-                            <h4>Our Solutions</h4>
-                        </div>
-                        <div class="menu-container">
-                            <ul>
-                                <li><a href="service.html">Web Development</a></li>
-                                <li><a href="service.html">Mobile Development</a></li>
-                                <li><a href="service.html">Cloud Services</a></li>
-                                <li><a href="service.html">Network Connectivity</a></li>
-                                <li><a href="service.html">Data analytics</a></li>
-                                <li><a href="service.html">Software Development</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6 d-flex justify-content-lg-center">
-                    <div class="footer-widget">
-                        <div class="widget-title">
-                            <h4>Company</h4>
-                        </div>
-                        <div class="menu-container">
-                            <ul>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="case-study.html">Case Study</a></li>
-                                <li><a href="blog.html">News & Article</a></li>
-                                <li><a href="team1.html">Our Team</a></li>
-                                <li><a href="project.html">All Portfolio</a></li>
-                                <li><a href="pricing.html">Pricing Plan</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 d-flex justify-content-sm-end">
-                    <div class="footer-widget">
-                        <div class="widget-title">
-                            <h4>Resources</h4>
-                        </div>
-                        <div class="menu-container">
-                            <ul>
-                                <li><a href="#">Support Area</a></li>
-                                <li><a href="#">Support Policy</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Career</a></li>
-                                <li><a href="pricing.html">Pricing Plan</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+          
             </div>
         </div>
         <div class="footer-btm">
@@ -252,11 +202,11 @@
                             </div>
                             <div class="footer-social">
                                 <ul>
-                                    <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                                    <li><a href="https://twitter.com/"><i class="bx bxl-twitter"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/"><i class="bx bxl-pinterest-alt"></i></a>
+                                    <li><a href="https://www.fb.com/automationeye/"><i class="bx bxl-facebook"></i></a></li>
+                                   
+                                    <li><a href="https://www.linkedin.com/company/automationhub/"><i class="bx bxl-linkedin"></i></a>
                                     </li>
-                                    <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a></li>
+                                    <li><a href="https://www.instagram.com/automationeye/"><i class="bx bxl-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
