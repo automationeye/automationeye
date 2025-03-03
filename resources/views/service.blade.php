@@ -283,23 +283,41 @@
 
                         </div>
                         <div class="services-content">
-                            <h3><a href=""> Engineering Workplace Safety 
-                            Consultancy and Trainings</a></h3>
-                            <p>With the continuous running of the machines, comes the need to
-                                replace worn out or broken machine components, be it electrical,
-                                mechanical or automation hardware. The lack of access to such
-                                spares can lead to the crippling of production and the potential
-                                loss of product or great customer relationships. Automation Eye
-                                Limited has partnerships with all major OEMs all around the
-                                world and Global logistics companies to ensure that we can
-                                quickly and efficiently deliver Any needed spare parts to our
-                                partners. We have an array of the most critical spare parts in our
-                                warehouses, and access to all other spares that our partners
-                                would need, regardless of their location all around the world. Our
-                                clients can easily make orders through our official website or
-                                make official requisitions using the emails and contacts listed in
-                                our portfolios. We ensure that whatever you need is timely
-                                delivered to you</p>
+                            <h3><a href=""> Engineering Workplace Safety
+                                    Consultancy and Trainings</a></h3>
+                            <p> For any Manufacturing Company, Safety is a Key player to
+                                the daily running of its processes, ensuring no injuries or
+                                fatalities and creating a safe environment for all employees
+                                to work in. As Automation Eye Limited, we understand this
+                                need and we have partnered with our Global stakeholders
+                                to provide Environmental, Occupational Health and Safety
+                                Solutions to all our interested partners. Our consultancy
+                                services in this regard include Environmental Impact
+                                Assessment (EIA), Occupational Health and Safety Audits,
+                                Fire Safety Audits, Fire and Spill Drills, Emergency
+                                Evacuation Planning and Designing, Environmental Audits,
+                                Risk Assessments, Environmental Aspect Monitoring (Air
+                                Quality and Noise Level Survey), ISO 45001:2018 (OHSMS)
+                                and ISO 14001:2015 (EMS) implementation, Personal
+                                Protective Equipment Consultancy and Supply and finally
+                                Fire Safety Appliance Supply and Installation.The Trainings we offer include OSH Committee
+                                Training, Fire Safety Training, Work at Height
+                                Training, Confined Space Training, Electrical
+                                Safety Training, Road Safety Training,
+                                Construction Safety Training, Oil and Gas Safety
+                                Management, Accident Investigation and
+                                Reporting Training, ISO 45000:2018 - OHSMS
+                                Training, ISO 45000:2015 - EMS Training, PTW
+                                (Work Permits) Training, First Aid Training,
+                                Hydrogen Sulphide (H2S) Hazard and Handling
+                                Training, Hazardous Waste Operations and
+                                Emergency Response, Safe Scaffold Erection and
+                                Inspection, Environmental, Social and Governance
+                                (EGS) Training, Road Safety Audits Training,
+                                Defensive Driving Training and Finally Integrated
+                                Environmental Impact Assessment and
+                                Environmental Audit Training. Reach out to us
+                                today for all your Workplace Safety Solutions</p>
                             <div class="services-btn">
                                 <a class="primary-btn5" href="">
                                     <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
@@ -317,31 +335,27 @@
                     data-wow-duration="1500ms">
                     <div class="single-service-card magnetic-item">
                         <div class="icon">
-                            <img src="solutions/repairs.jpg">
+                            <img src="solutions/intelligence.jpg">
                         </div>
                         <div class="services-content">
-                            <h3><a href="">Spare Parts Repair and Maintenance</a></h3>
-                            <p> We Believe in a recyclable economy for industrial
-                                machines. A major challenge for most of our
-                                partners has been to Repair their broken machine
-                                parts. Replacing parts like Variable Frequency
-                                Drives and Motors and other electrical parts can be
-                                quite costly. We acknowledge this dilemma of either
-                                repairing the broken part or buying a new one all
-                                together. Automation Eye Limited has trained
-                                Repair Engineers that have vast experience in
-                                repairing all electrical parts, from PLCs, to HMIs, to
-                                VFDs, to motors and to Pneumatic and Hydraulic
-                                Systems. With our cutting edge technologies, we
-                                troubleshoot your broken part, and give valued
-                                advice and help in repairing it. All our repairs are
-                                accompanied with a warranty to ensure partner trust
-                                and satisfaction. Where Repair is not possible, we
-                                offer our partners with a valued solution on where to
-                                get a cost effective replacement or Retrofit of the
-                                same in the case of obsolete spare parts. We are
-                                here for you. Let's revive those parts stored away for
-                                lack of Repair solutions</p>
+                            <h3><a href="">Artificial Intelligence (AI) and Smart
+                                    Factories Solutions</a></h3>
+                            <p> The World is Moving more and more to a technological vantage.
+                                Industrial Revolution is slowly shifting from the old Industry 3.0 and the
+                                current Industry 4.0 and the soon to come Industry 5.0 Revolution.
+                                Advancements in Artificial Intelligence and Smart Technologies are
+                                getting more and more into our industries and Factories. We are seeing
+                                Robots taking over the production lines. We are also experiencing
+                                technologies in breakdown reporting with highly advanced SCADA
+                                Systems allowing real time running and maintenance of industrial
+                                machines from anywhere around the world. As Automation Eye Limited,
+                                we are at the lead in this to ensure that our partners have Solutions that
+                                bring Industrial Revelation to their production floor. We provide software
+                                solutions to ensure spare parts management in engineering stores,
+                                Online SOP solutions, daily reports online tracking and remote support
+                                to all our partners all around the world. Reach out to us today and let's
+                                custom make a solution for you
+                            </p>
                             <div class="services-btn">
                                 <a class="primary-btn5" href="">
                                     <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
@@ -366,26 +380,28 @@
                     data-wow-duration="1500ms" id="consult">
                     <div class="single-service-card magnetic-item">
                         <div class="icon">
-                            <img src="solutions/supply.jpg">
+                            <img src="solutions/smartaccess.jpg">
 
                         </div>
                         <div class="services-content">
-                            <h3><a href="">Machines Spare Parts Supply</a></h3>
-                            <p>With the continuous running of the machines, comes the need to
-                                replace worn out or broken machine components, be it electrical,
-                                mechanical or automation hardware. The lack of access to such
-                                spares can lead to the crippling of production and the potential
-                                loss of product or great customer relationships. Automation Eye
-                                Limited has partnerships with all major OEMs all around the
-                                world and Global logistics companies to ensure that we can
-                                quickly and efficiently deliver Any needed spare parts to our
-                                partners. We have an array of the most critical spare parts in our
-                                warehouses, and access to all other spares that our partners
-                                would need, regardless of their location all around the world. Our
-                                clients can easily make orders through our official website or
-                                make official requisitions using the emails and contacts listed in
-                                our portfolios. We ensure that whatever you need is timely
-                                delivered to you</p>
+                            <h3><a href=""> Building Management Systems
+                                    (BMS), Access Control Solutions, Security
+                                    Systems and Smart Homes Solutions</a></h3>
+                            <p> Our Technological Solutions span to the field of
+                                Building Management and Homes. We believe in
+                                offering safe and secure solutions that help our
+                                partners and stakeholders in their smart buildings and
+                                Smart Homes. From limiting only the required
+                                personnel to enter the requested places through
+                                customised access control solutions, to automated
+                                lifting solutions, to card access to hotel rooms and
+                                residential houses, to safe automated parking solutions,
+                                to entry recording solutions, Smart cameras and
+                                integrated building Systems, we ensure that our
+                                partner needs are met to their required standard. With
+                                a global reach, providing solutions all around the world,
+                                you can be sure that we will Bring ease to you. Reach
+                                out to us and let us custom make this solution for you.</p>
                             <div class="services-btn">
                                 <a class="primary-btn5" href="">
                                     <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
@@ -403,31 +419,27 @@
                     data-wow-duration="1500ms">
                     <div class="single-service-card magnetic-item">
                         <div class="icon">
-                            <img src="solutions/repairs.jpg">
+                            <img src="solutions/websites.jpg">
                         </div>
                         <div class="services-content">
-                            <h3><a href="">Spare Parts Repair and Maintenance</a></h3>
-                            <p> We Believe in a recyclable economy for industrial
-                                machines. A major challenge for most of our
-                                partners has been to Repair their broken machine
-                                parts. Replacing parts like Variable Frequency
-                                Drives and Motors and other electrical parts can be
-                                quite costly. We acknowledge this dilemma of either
-                                repairing the broken part or buying a new one all
-                                together. Automation Eye Limited has trained
-                                Repair Engineers that have vast experience in
-                                repairing all electrical parts, from PLCs, to HMIs, to
-                                VFDs, to motors and to Pneumatic and Hydraulic
-                                Systems. With our cutting edge technologies, we
-                                troubleshoot your broken part, and give valued
-                                advice and help in repairing it. All our repairs are
-                                accompanied with a warranty to ensure partner trust
-                                and satisfaction. Where Repair is not possible, we
-                                offer our partners with a valued solution on where to
-                                get a cost effective replacement or Retrofit of the
-                                same in the case of obsolete spare parts. We are
-                                here for you. Let's revive those parts stored away for
-                                lack of Repair solutions</p>
+                            <h3><a href=""> Websites and Apps Development</a></h3>
+                            <p>
+                                Automation Eye Limited also offers
+                                our partners customised solutions in
+                                developing their websites and
+                                applications. From concept
+                                initialization, to UI/UX design and
+                                development, then programming to
+                                launch and deployment, we walk with
+                                our partners through each step to
+                                create a product that portrays our
+                                partner in an excellent way, allowing
+                                seamless integration between
+                                customers and their clients in offering
+                                their various solutions. Reach out to
+                                us today and let's help you portray an
+                                excellent vision to all your customers
+                                and stakeholders</p>
                             <div class="services-btn">
                                 <a class="primary-btn5" href="">
                                     <svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">

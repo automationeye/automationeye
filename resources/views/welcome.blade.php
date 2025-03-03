@@ -45,17 +45,17 @@
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="banner-img">
-                                            <img class="img-fluid" src="assets/img/home-5/h5-banner-img1.png" alt>
+                                            <img class="img-fluid" src="solutions/c1.jpg" alt>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="banner-img">
-                                            <img class="img-fluid" src="assets/img/home-5/h5-banner-img2.png" alt>
+                                            <img class="img-fluid" src="solutions/c2.jpg" alt>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="banner-img">
-                                            <img class="img-fluid" src="assets/img/home-5/h5-banner-img3.png" alt>
+                                            <img class="img-fluid" src="solutions/c3.jpg" alt>
                                         </div>
                                     </div>
                                 </div>
@@ -133,7 +133,7 @@
                         </div>
                         <div class="about-video-area magnetic-item">
                             <img class="img-fluid" src="assets/img/home-5/about-img-2.png" alt>
-                            <a href="https://www.youtube.com/watch?v=u31qwQUeGuM&amp;ab_channel=JoomlaTemplate"
+                            <a href="https://youtu.be/y8bJk_hGYD4"
                                 data-fancybox="gallery" class="about-video-btn video-popup">
                                 <i class="bi bi-play"></i>
                             </a>
@@ -215,7 +215,7 @@
                     <div class="single-service-card magnetic-item">
                         <div class="icon">
 
-                          <img src ="solutions/training.jpg">
+                          <img src ="solutions/Training.jpg">
                         </div>
                         <div class="services-content">
                             <h3><a href="service-details.html"> Industrial Automation Training</a></h3>
@@ -499,7 +499,7 @@
                     data-wow-duration="1500ms">
                     <div class="single-service-card magnetic-item">
                         <div class="icon">
-                        <img src="solutions/intelligence.jpg">
+                        <img src="solutions/Intelligence.jpg">
                         </div>
                         <div class="services-content">
                             <h3><a href="service-details.html"> Artificial Intelligence (AI) and Smart
@@ -647,106 +647,7 @@
             </div>
         </div>
     </div>
-    <div class="home5-process-area mb-130">
-        <div class="container">
-            <div class="row mb-55 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <div class="col-lg-12 d-flex align-items-center justify-content-between flex-wrap gap-2">
-                    <div class="section-title-5">
-                        <span>THE PROCESS</span>
-                        <h2>What We Do</h2>
-                    </div>
-                    <div class="section-content">
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-lg-4 gy-5 justify-content-center">
-                <div class="col-lg-4 col-sm-6 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                    <div class="single-process">
-                        <div class="sl">
-                            <h2>01</h2>
-                        </div>
-                        <div class="content">
-                            <h3>Industrial Machines Maintenance and Service</h3>
-                            <p>One of The Major Concerns of any
-                                manufacturer is in their ability to keep
-                                their machines running and healthy for
-                                as long as it takes before their
-                                scheduled Upgrades and expansion to
-                                more or bigger machines. With this
-                                concern, comes the need to maintain
-                                and service the machines, replacing
-                                worn out components and restoring the
-                                machines to their optimum operating
-                                states as quickly as possible. This is
-                                true for all industries that We as
-                                Automation Eye Limited, partner with,
-                                including Food and Beverage, Oil and
-                                Gas, Processing and Packaging,
-                                Pharmaceutical Industries, Cement
-                                Production and Processing, Grain
-                                Handling Industries and Motor/Vehicle
-                                Assembly Industries</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 wow animate fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="single-process">
-                        <div class="sl">
-                            <h2>02</h2>
-                        </div>
-                        <div class="content">
-                            <h3>Strategic Planning and Execution</h3>
-                            <p>Once we have a clear understanding of the project requirements, we develop a strategic plan
-                                outlining the key milestones, timelines, resources, and deliverables. This involves
-                                leveraging our expertise, creativity, and innovative thinking to design tailored solutions
-                                that address the specific challenges and opportunities identified during the analysis phase.
-                                With a well-defined plan in place, we execute tasks with precision, agility, and attention
-                                to detail, continuously monitoring progress and adjusting course as needed to ensure
-                                alignment with project goals and objectives.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 wow animate fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                    <div class="single-process">
-                        <div class="sl">
-                            <h2>03</h2>
-                        </div>
-                        <div class="content">
-                            <h3>Collaboration and Continuous Improvement</h3>
-                            <p>Collaboration is integral to our work process. We foster a collaborative environment where
-                                cross-functional teams work together synergistically, leveraging their diverse skills,
-                                knowledge, and perspectives to achieve common objectives. Through open communication,
-                                feedback loops, and knowledge sharing, we encourage continuous improvement and learning,
-                                driving innovation and excellence in everything we do. By embracing a culture of continuous
-                                learning and adaptation, we stay agile and responsive to evolving challenges and
-                                opportunities, positioning us for long-term success in an ever-changing world.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="achievement-area">
-                <div class="row g-lg-4 gy-5">
-                    <div class="col-xl-7 col-lg-6 d-flex align-items-center wow animate fadeInLeft" data-wow-delay="200ms"
-                        data-wow-duration="1500ms">
-                        <div class="achievement-content">
-                            <h2>#1</h2>
-                            <h3>Best Automation Services And Solutions Company <span>Since <span
-                                        class="year">2021.</span></span></h3>
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-6 wow animate fadeInRight" data-wow-delay="300ms"
-                        data-wow-duration="1500ms">
-                        <div class="achievement-img magnetic-item">
-                            <img class="img-fluid" src="assets/img/home-5/achievement-img.png" alt>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
+   
     <div class="home5-case-study mb-130">
         <div class="container">
             <div class="row mb-55  wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
