@@ -88,7 +88,7 @@
                             class="bi bi-plus-lg dropdown-icon2"></i>
                         <ul class="sub-menu">
                             <li><a href="/services#engineering">Engineering Services</a></li>
-                            <li><a href="/services#training">Training and Development</a></li>
+                            <li><a href="/services#gng">Training and Development</a></li>
                             <li><a href="/services#consult">Consultancy</a></li>
                             <li><a href="/services#repair">Industrial Repair</a></li>
 
@@ -112,7 +112,7 @@
                 <span></span>
             </div>
             <div class="header-btn">
-                <a class="primary-btn6" href="contact.html">Get A Quote</a>
+                <a class="primary-btn6" href="/contact">Reach Us Out</a>
             </div>
         </div>
         <div class="main-content">

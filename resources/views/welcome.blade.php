@@ -14,9 +14,7 @@
 </style>
 
     <div class="banner-area-wrapper">
-        <div class="company-name">
-            <h2>AUTOMATIONEYE</h2>
-        </div>
+       
         <div class="banner-area">
             <div class="social-area">
                 <ul>
@@ -50,12 +48,12 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="banner-img">
-                                            <img class="img-fluid" src="solutions/c2.jpg" alt>
+                                            <img class="img-fluid" src="solutions/c5.jpg" alt>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="banner-img">
-                                            <img class="img-fluid" src="solutions/c3.jpg" alt>
+                                            <img class="img-fluid" src="solutions/c4.jpg" alt>
                                         </div>
                                     </div>
                                 </div>
@@ -64,17 +62,7 @@
                     </div>
                 </div>
             </div>
-            <div class="banner-text-slider">
-                <h2 class="marquee_text"><img src="assets/img/home-5/star.svg" alt>We are Design Agency<img
-                        src="assets/img/home-5/star.svg" alt>Creative & Clean Design<img src="assets/img/home-5/star.svg"
-                        alt>We Help To Achieve <img src="assets/img/home-5/star.svg" alt>We are Design Agency<img
-                        src="assets/img/home-5/star.svg" alt>Creative & Clean Design<img src="assets/img/home-5/star.svg"
-                        alt>We Help To Achieve<img src="assets/img/home-5/star.svg" alt>We are Design Agency<img
-                        src="assets/img/home-5/star.svg" alt>Creative & Clean Design<img src="assets/img/home-5/star.svg"
-                        alt>We Help To Achieve <img src="assets/img/home-5/star.svg" alt>We are Design Agency<img
-                        src="assets/img/home-5/star.svg" alt>Creative & Clean Design<img src="assets/img/home-5/star.svg"
-                        alt>We Help To Achieve</h2>
-            </div>
+           
         </div>
     </div>
     <div class="home5-about-area pt-130 mb-130" id="home5-about-area">
@@ -84,7 +72,7 @@
                     <div class="about-content">
                         <div class="section-title-5">
                             <span>Our Values & Culture</span>
-                            <h2>Who We Are</h2>
+                            <h2>Who Are We</h2>
                         </div>
                         <p>Automation Eye Limited is a global technology company committed to providing comprehensive
                             solutions across various engineering and technological domains. With a focus on excellence,
@@ -102,21 +90,21 @@
                                     <path
                                         d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                                 </svg>
-                                Innovation
+                                Value
                             </li>
                             <li>
                                 <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                                 </svg>
-                                Integrity
+                                Skilled
                             </li>
                             <li>
                                 <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                                 </svg>
-                                Collaboration
+                                Gratitude
                             </li>
                         </ul>
                         <p>Collaboration is key to our success. We believe in the power of teamwork, diversity, and
@@ -129,7 +117,7 @@
                 <div class="col-lg-6 wow animate fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="about-img-wrap">
                         <div class="about-img magnetic-item">
-                            <img class="img-fluid" src="assets/img/home-5/about-img-1.png" alt>
+                            <img class="img-fluid" src="solutions/repairs.jpg"width="400" height ="100" alt>
                         </div>
                         <div class="about-video-area magnetic-item">
                             <img class="img-fluid" src="assets/img/home-5/about-img-2.png" alt>
@@ -648,132 +636,7 @@
         </div>
     </div>
    
-    <div class="home5-case-study mb-130">
-        <div class="container">
-            <div class="row mb-55  wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                <div class="col-lg-12 d-flex align-items-center justify-content-between flex-wrap gap-4">
-                    <div class="section-title-5">
-                        <span>CASE STUDY</span>
-                        <h2>Success Stories</h2>
-                    </div>
-                    <div class="view-all-btn">
-                        <a class="primary-btn3" href="case-study.html">View All Case</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="single-case-study wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div class="row g-4">
-                            <div class="col-lg-5 d-flex align-items-center">
-                                <div class="case-study-content">
-                                    <span>Web Development</span>
-                                    <h3><a href="case-study-details.html">Building a Scalable Cloud
-                                            Infrastructure</a></h3>
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="case-study-img-and-btn">
-                                    <div class="case-img magnetic-item">
-                                        <img class="img-fluid" src="assets/img/home-5/home5-case-01.png" alt>
-                                    </div>
-                                    <div class="learn-more-btn">
-                                        <a class="primary-btn8" href="case-study-details.html">
-                                            <svg width="12" height="12" viewBox="0 0 13 13" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0 1H12M12 1V13M12 1L0.5 12"></path>
-                                            </svg>
-                                            LEARN MORE
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-case-study wow animate fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                        <div class="row g-4">
-                            <div class="col-lg-5 d-flex align-items-center">
-                                <div class="case-study-content">
-                                    <span>Software development</span>
-                                    <h3><a href="case-study-details.html">Leveraging Data Analytics for Business
-                                            Insights</a></h3>
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="case-study-img-and-btn">
-                                    <div class="case-img magnetic-item">
-                                        <img class="img-fluid" src="assets/img/home-5/home5-case-02.png" alt>
-                                    </div>
-                                    <div class="learn-more-btn">
-                                        <a class="primary-btn8" href="case-study-details.html">
-                                            <svg width="12" height="12" viewBox="0 0 13 13" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0 1H12M12 1V13M12 1L0.5 12"></path>
-                                            </svg>
-                                            LEARN MORE
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-case-study wow animate fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <div class="row g-4">
-                            <div class="col-lg-5 d-flex align-items-center">
-                                <div class="case-study-content">
-                                    <span>Digital marketing</span>
-                                    <h3><a href="case-study-details.html">Optimizing IT Infrastructure for Cost
-                                            Efficiency</a></h3>
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="case-study-img-and-btn">
-                                    <div class="case-img magnetic-item">
-                                        <img class="img-fluid" src="assets/img/home-5/home5-case-03.png" alt>
-                                    </div>
-                                    <div class="learn-more-btn">
-                                        <a class="primary-btn8" href="case-study-details.html">
-                                            <svg width="12" height="12" viewBox="0 0 13 13" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0 1H12M12 1V13M12 1L0.5 12"></path>
-                                            </svg>
-                                            LEARN MORE
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-case-study wow animate fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
-                        <div class="row g-4">
-                            <div class="col-lg-5 d-flex align-items-center">
-                                <div class="case-study-content">
-                                    <span>Data analytics</span>
-                                    <h3><a href="case-study-details.html">Enhancing Customer Engagement</a></h3>
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="case-study-img-and-btn">
-                                    <div class="case-img magnetic-item">
-                                        <img class="img-fluid" src="assets/img/home-5/home5-case-04.png" alt>
-                                    </div>
-                                    <div class="learn-more-btn">
-                                        <a class="primary-btn8" href="case-study-details.html">
-                                            <svg width="12" height="12" viewBox="0 0 13 13" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0 1H12M12 1V13M12 1L0.5 12"></path>
-                                            </svg>
-                                            LEARN MORE
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
     <div class="collaborate-section mb-130">
         <div class="container">
