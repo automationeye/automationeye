@@ -73,7 +73,7 @@
                     data-wow-duration="1500ms" id="training">
                     <div class="single-service-card magnetic-item">
                         <div class="icon">
-                            <img src="solutions/training.jpg" width="500" height="auto">
+                            <img src="solutions/Training.jpg" width="500" height="auto">
                         </div>
                         <div class="services-content">
                             <h3><a href="">Industrial Automation Training</a></h3>
@@ -375,7 +375,7 @@
                     data-wow-duration="1500ms">
                     <div class="single-service-card magnetic-item">
                         <div class="icon">
-                        <img src="solutions/intelligence.jpg" width="500" height="auto">
+                        <img src="solutions/Intelligence.jpg" width="500" height="auto">
                         </div>
                         <div class="services-content">
                             <h3><a href="">Artificial Intelligence (AI) and Smart

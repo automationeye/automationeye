@@ -288,7 +288,7 @@
                     data-wow-duration="1500ms">
                     <div class="single-service-card magnetic-item">
                         <div class="icon">
-                        <img src="solutions/repair.jpg">
+                        <img src="solutions/repairs.jpg">
                         </div>
                         <div class="services-content">
                             <h3><a href="service-details.html">Spare Parts Repair and Maintenance</a></h3>
