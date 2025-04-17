@@ -32,7 +32,7 @@
 
 <body class="bg-dark-5 tt-magic-cursor">
 
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div id="particles-background" class="vertical-centered-box"></div>
         <div id="particles-foreground" class="vertical-centered-box"></div>
         <div class="vertical-centered-box">
@@ -57,7 +57,7 @@
                 </svg>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="main-nav-wrapper">
         <div class="main-nav2">
