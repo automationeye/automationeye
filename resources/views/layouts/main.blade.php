@@ -1,7 +1,26 @@
 <!doctype html>
 <html lang="en">
-
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/bootstrap-icons.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/all.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/fontawesome.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
+    <link href="{{ asset('assets/css/boxicons.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/jquery.fancybox.min.css') }}">
+    <link href="{{ asset('assets/css/boxicons.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('assets/css/preloader.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style2.css') }}">
+    <link href="{{ asset('assets/css/research-papers.css') }}" rel="stylesheet">
+
+    <title>{{ env('APP_NAME') }}</title>
+    <link rel="icon" href="{{ asset('logo.png') }}" type="image/gif" sizes="15x15">
+</head>
+<!-- <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,10 +44,11 @@
 
     <link rel="stylesheet" href="assets/css/preloader.css">
     <link rel="stylesheet" href="assets/css/style2.css">
+    <link href="{{ asset('assets/css/research-papers.css') }}" rel="stylesheet">
 
     <title>{{ env('APP_NAME') }}</title>
     <link rel="icon" href="logo.png" type="image/gif" sizes="15x15">
-</head>
+</head> -->
 
 <body class="bg-dark-5 tt-magic-cursor">
 
@@ -95,7 +115,14 @@
                         </ul>
                     </li>
                     <li class="menu-item"><a href="https://shop.automationeye.com">E-shop</a></li>
-
+                    <li class="menu-item-has-children">
+                        <a href="/research-papers" data-hover="Research-papers">Research Papers</a><i class="bi bi-plus-lg dropdown-icon2"></i>
+                        <ul class="sub-menu">
+                            <li><a href="/research-papers#featured">Featured Papers</a></li>
+                            <li><a href="/research-papers#recent">Recent Publications</a></li>
+                            <li><a href="/research-papers#categories">Browse Categories</a></li>
+                        </ul>
+                    </li>
                     <li class="menu-item"><a href="/services#training">Engineering safety</a></li>
                     <li class="menu-item"><a href="/contact">Contact us</a></li>
                     <li class="menu-item"><a href="/careers">Careers</a></li>
@@ -220,9 +247,28 @@
     </div>
 
 
+<!-- For the Cloudflare script that's using a different path format -->
+<script data-cfasync="false" src="{{ asset('cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js') }}"></script>
 
+<!-- For all other assets -->
+<script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
+<script src="{{ asset('assets/js/popper.min.js') }}"></script>
+<script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
+<script src="{{ asset('assets/js/waypoints.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
+<script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.fancybox.min.js') }}"></script>
+<script src="{{ asset('assets/js/gsap.min.js') }}"></script>
+<script src="{{ asset('assets/js/simpleParallax.min.js') }}"></script>
+<script src="{{ asset('assets/js/TweenMax.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.marquee.min.js') }}"></script>
+<script src="{{ asset('assets/js/wow.min.js') }}"></script>
+<script src="{{ asset('assets/js/sidebar.js') }}"></script>
+<script src="{{ asset('assets/js/preloader.js') }}"></script>
+<script src="{{ asset('assets/js/custom.js') }}"></script>
 
-    <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <!-- <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="assets/js/jquery-3.6.0.min.js"></script>
 
     <script src="assets/js/popper.min.js"></script>
@@ -249,7 +295,7 @@
     <script src="assets/js/sidebar.js"></script>
 
     <script src="assets/js/preloader.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/custom.js"></script> -->
     <script>
         $(".marquee_text").marquee({
             direction: "left",

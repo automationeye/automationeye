@@ -87,12 +87,20 @@
                         <li><a href="/services#training">Training and Development</a></li>
                         <li><a href="/services#consult">Consultancy</a></li>
                         <li><a href="/services#repair">Industrial Repair</a></li>
-                       
                     </ul>
                 </li>
                 <li><a href="https://shop.automationeye.com">E-shop</a></li>
 
                 <li><a href="/safety">Engineering safety</a></li>
+
+                <li class="menu-item-has-children">
+                    <a href="/research-papers">Research Papers</a><i class="bi bi-plus dropdown-icon"></i>
+                    <ul class="sub-menu">
+                        <li><a href="/research-papers#featured">Featured Papers</a></li>
+                        <li><a href="/research-papers#recent">Recent Publications</a></li>
+                        <li><a href="/research-papers#categories">Browse Categories</a></li>
+                    </ul>
+                </li>
                 <li><a href="/contact">Contact us</a></li>
                 <li><a href="/careers">Careers</a></li>       
             </ul>
