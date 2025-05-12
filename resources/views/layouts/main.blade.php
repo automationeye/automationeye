@@ -18,7 +18,7 @@
     <link href="{{ asset('assets/css/research-papers.css') }}" rel="stylesheet">
 
     <title>{{ env('APP_NAME') }}</title>
-    <link rel="icon" href="{{ asset('logo.png') }}" type="image/gif" sizes="15x15">
+    <link rel="icon" href="{{ asset('logo.png') }}" type="image/png">
 </head>
 <!-- <head>
 
@@ -115,14 +115,15 @@
                         </ul>
                     </li>
                     <li class="menu-item"><a href="https://shop.automationeye.com">E-shop</a></li>
-                    <li class="menu-item-has-children">
+                    <li class="menu-item-has-children menu-item">
                         <a href="/research-papers" data-hover="Research-papers">Research Papers</a><i class="bi bi-plus-lg dropdown-icon2"></i>
                         <ul class="sub-menu">
                             <li><a href="/research-papers#featured">Featured Papers</a></li>
                             <li><a href="/research-papers#recent">Recent Publications</a></li>
-                            <li><a href="/research-papers#categories">Browse Categories</a></li>
+                            <li><a href="{{ route('admin.papers.create') }}">Add New Paper</a></li>
                         </ul>
                     </li>
+
                     <li class="menu-item"><a href="/services#training">Engineering safety</a></li>
                     <li class="menu-item"><a href="/contact">Contact us</a></li>
                     <li class="menu-item"><a href="/careers">Careers</a></li>

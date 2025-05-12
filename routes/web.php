@@ -29,3 +29,4 @@ Route::get('/papers/download/{id}', [PaperController::class, 'download'])->name(
 Route::prefix('admin')->name('admin.')->group(function () {
     Route::resource('papers', PaperController::class)->except(['show']);
 });
+Route::post('/admin/papers/generate-global-qr', [PaperController::class, 'generateGlobalQrFromAdmin'])->name('admin.generate.global.qr');

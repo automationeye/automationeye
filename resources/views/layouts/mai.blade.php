@@ -98,7 +98,6 @@
                     <ul class="sub-menu">
                         <li><a href="/research-papers#featured">Featured Papers</a></li>
                         <li><a href="/research-papers#recent">Recent Publications</a></li>
-                        <li><a href="/research-papers#categories">Browse Categories</a></li>
                     </ul>
                 </li>
                 <li><a href="/contact">Contact us</a></li>

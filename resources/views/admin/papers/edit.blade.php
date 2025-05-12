@@ -35,20 +35,6 @@
                     <label for="published_date">Publication Date <span class="text-danger">*</span></label>
                     <input type="date" class="form-control" id="published_date" name="published_date" value="{{ old('published_date', $paper->published_date->format('Y-m-d')) }}" required>
                 </div>
-
-                <div class="form-group">
-                    <label>Categories <span class="text-danger">*</span></label>
-                    <div class="categories-checkbox">
-                        @foreach($categories as $category)
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="category-{{ $category->id }}" name="categories[]" value="{{ $category->id }}" 
-                                    {{ (is_array(old('categories')) && in_array($category->id, old('categories'))) || 
-                                       (in_array($category->id, $selectedCategories)) ? 'checked' : '' }}>
-                                <label class="custom-control-label" for="category-{{ $category->id }}">{{ $category->name }}</label>
-                            </div>
-                        @endforeach
-                    </div>
-                </div>
                 
                 <div class="form-group">
                     <label for="abstract">Abstract <span class="text-danger">*</span></label>

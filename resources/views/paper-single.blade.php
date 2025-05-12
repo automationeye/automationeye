@@ -16,7 +16,11 @@
         </div>
     </div>
 </div>
-
+    <div class="text-end mb-3">
+        <a href="{{ route('admin.papers.edit', $paper->id) }}" class="btn btn-warning btn-sm">
+            <i class="bx bx-edit"></i> Edit Paper
+        </a>
+    </div>
 <div class="paper-details-section pt-120 pb-120">
     <div class="container">
         <div class="row">
@@ -27,11 +31,6 @@
                         <div class="paper-meta">
                             <span><i class='bx bx-calendar'></i> Published: {{ $paper->published_date->format('F d, Y') }}</span>
                             <span><i class='bx bx-user'></i> Authors: {{ $paper->authors }}</span>
-                            <span><i class='bx bx-bookmark'></i> Categories: 
-                                @foreach($paper->categories as $category)
-                                    <a href="{{ route('papers.category', $category->slug) }}">{{ $category->name }}</a>{{ !$loop->last ? ', ' : '' }}
-                                @endforeach
-                            </span>
                         </div>
                     </div>
 
@@ -98,8 +97,11 @@
                     <div class="sidebar-widget qr-widget">
                         <h4>Scan to Download</h4>
                         <div class="qr-code-container">
-                            <!-- <img src="{{ $paper->qr_code_url }}" alt="Scan to download" class="img-fluid" style="width: 300px;"> -->
-                            <img src="{{ $paper->qr_code_url }}" alt="QR Code for {{ $paper->title }}">
+                            @if($paper->qr_code_url)
+                                <img src="{{ $paper->qr_code_url }}" alt="QR Code for {{ $paper->title }}" class="img-fluid">
+                            @else
+                                <div class="alert alert-warning">QR code not available</div>
+                            @endif
                         </div>
                         <p>Scan this QR code with your smartphone to download this research paper directly to your mobile device.</p>
                     </div>
@@ -118,7 +120,7 @@
                                 <div class="related-paper-item">
                                     <a href="{{ route('papers.show', $relatedPaper->slug) }}">
                                         <div class="related-paper-img">
-                                            <img src="{{ $relatedPaper->thumbnail_url ?? 'assets/img/images/global-papers-qr.png' }}" alt="{{ $relatedPaper->title }}">
+                                            <img src="{{ $paper->qr_code_url }}" alt="QR Code for {{ $paper->title }}" class="img-fluid">
                                         </div>
                                         <div class="related-paper-content">
                                             <h6>{{ $relatedPaper->title }}</h6>
@@ -129,23 +131,19 @@
                             @endforeach
                         </div>
                     </div>
-
-                    <div class="sidebar-widget categories-widget">
-                        <h4>Research Categories</h4>
-                        <ul class="categories-list">
-                            @foreach($categories as $category)
-                                <li>
-                                    <a href="{{ route('papers.category', $category->slug) }}">
-                                        <i class='bx {{ $category->icon_class ?? 'bx-folder' }}'></i> {{ $category->name }}
-                                        <span class="paper-count">{{ $category->papers_count }}</span>
-                                    </a>
-                                </li>
-                            @endforeach
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 @endsection
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const qrImage = document.querySelector('.qr-code-container img');
+    if (qrImage) {
+        qrImage.onerror = function() {
+            this.parentNode.innerHTML = '<div class="alert alert-warning">QR code not available. Please use the download button instead.</div>';
+        };
+    }
+});
+</script>

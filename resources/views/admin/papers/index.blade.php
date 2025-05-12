@@ -27,7 +27,6 @@
                             <th>Title</th>
                             <th>Authors</th>
                             <th>Publication Date</th>
-                            <th>Categories</th>
                             <th>Featured</th>
                             <th>Downloads</th>
                             <th>Actions</th>
@@ -39,11 +38,6 @@
                                 <td>{{ $paper->title }}</td>
                                 <td>{{ $paper->authors }}</td>
                                 <td>{{ $paper->published_date->format('M d, Y') }}</td>
-                                <td>
-                                    @foreach($paper->categories as $category)
-                                        <span class="badge badge-info">{{ $category->name }}</span>
-                                    @endforeach
-                                </td>
                                 <td>{!! $paper->is_featured ? '<span class="badge badge-success">Yes</span>' : '<span class="badge badge-secondary">No</span>' !!}</td>
                                 <td>{{ $paper->downloads }}</td>
                                 <td>

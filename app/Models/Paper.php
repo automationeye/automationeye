@@ -44,11 +44,6 @@ class Paper extends Model
         });
     }
 
-    public function categories()
-    {
-        return $this->belongsToMany(Category::class, 'category_research_paper', 'paper_id', 'category_id');
-    }
-
     public function getRouteKeyName()
     {
         return 'slug';

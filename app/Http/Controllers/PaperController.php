@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Paper;
-use App\Models\Category;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Storage;
@@ -14,43 +13,30 @@ class PaperController extends Controller
 {
     public function index()
     {
-        $featuredPapers = Paper::with('categories')
-            ->where('is_featured', true)
+        $featuredPapers = Paper::where('is_featured', true)
             ->orderBy('published_date', 'desc')
             ->take(6)
             ->get();
             
-        $recentPapers = Paper::with('categories')
-            ->where('is_featured', false)
+        $recentPapers = Paper::where('is_featured', false)
             ->orderBy('published_date', 'desc')
             ->take(6)
             ->get();
-            
-        $categories = Category::withCount('papers')
-            ->get();
-            
-        return view('research-papers', compact('featuredPapers', 'recentPapers', 'categories'));
-    }
 
-    public function byCategory($slug)
-    {
-        $category = Category::where('slug', $slug)->firstOrFail();
-        
-        $papers = Paper::whereHas('categories', function($query) use ($slug) {
-            $query->where('slug', $slug);
-        })
-        ->orderBy('published_date', 'desc')
-        ->paginate(9);
-        
-        $categories = Category::withCount('papers')->get();
-        
-        return view('papers-category', compact('papers', 'category', 'categories'));
+        $url = route('papers.index');
+        $globalQrCode = 'data:image/png;base64,' . base64_encode(
+            QrCode::format('png')
+                ->size(300)
+                ->margin(2)
+                ->errorCorrection('H')
+                ->generate($url)
+        );
+        return view('research-papers', compact('featuredPapers', 'recentPapers', 'globalQrCode'));
     }
 
     public function create()
     {
-        $categories = Category::all();
-        return view('admin.papers.create', compact('categories'));
+        return view('admin.papers.create');
     }
 
     public function store(Request $request)
@@ -65,10 +51,9 @@ class PaperController extends Controller
             'references' => 'nullable|string',
             'author_bios' => 'nullable|string',
             'is_featured' => 'boolean',
-            'categories' => $request->has('categories') ? 'required|array' : 'nullable',
-            'categories.*' => 'exists:categories,id',
             'thumbnail' => 'nullable|image|max:2048',
-            'paper_file' => 'required|file|mimes:pdf,doc,docx|max:10240',
+            'paper_file' => 'required|file|mimes:pdf,doc,docx|max:102400',
+            
         ]);
 
         $slug = Str::slug($validated['title']);
@@ -107,23 +92,24 @@ class PaperController extends Controller
         ]);
         
         $download_url = route('papers.download', $paper->id);
-        $qr_path = 'qrcodes/paper-' . $paper->id . '.png';
-        $qr_storage_path = storage_path('app/public/' . $qr_path);
+        $qr_filename = 'paper-' . $paper->id . '.png';
+        $qr_path = 'qrcodes/' . $qr_filename;
         
-        if (!file_exists(dirname($qr_storage_path))) {
-            mkdir(dirname($qr_storage_path), 0755, true);
+        $qr_directory = public_path('storage/qrcodes');
+        if (!file_exists($qr_directory)) {
+            mkdir($qr_directory, 0755, true);
         }
+        
+        $qr_full_path = public_path('storage/' . $qr_path);
         
         QrCode::format('png')
             ->size(300)
             ->margin(2)
             ->errorCorrection('H')
-            ->generate($download_url, $qr_storage_path);
+            ->generate($download_url, $qr_full_path);
         
         $paper->qr_code_url = asset('storage/' . $qr_path);
         $paper->save();
-        
-        $paper->categories()->attach($validated['categories']);
         
         return redirect()->route('admin.papers.index')
             ->with('success', 'Research paper uploaded successfully!');
@@ -131,19 +117,14 @@ class PaperController extends Controller
 
     public function show($slug)
     {
-        $paper = Paper::with('categories')->where('slug', $slug)->firstOrFail();
-        
-        $relatedPapers = Paper::whereHas('categories', function($query) use ($paper) {
-            $query->whereIn('categories.id', $paper->categories->pluck('id'));
-        })
-        ->where('id', '!=', $paper->id)
-        ->take(3)
-        ->get();
-        
-        $categories = Category::withCount('papers')->get();
-        
-        return view('paper-single', compact('paper', 'relatedPapers', 'categories'));
+        $paper = Paper::where('slug', $slug)->firstOrFail();
+        $relatedPapers = Paper::where('id', '!=', $paper->id)
+            ->latest('published_date')
+            ->take(3)
+            ->get();        
+        return view('paper-single', compact('paper', 'relatedPapers'));
     }
+    
     public function download($id)
     {
         $paper = Paper::findOrFail($id);
@@ -159,10 +140,7 @@ class PaperController extends Controller
     public function edit($id)
     {
         $paper = Paper::findOrFail($id);
-        $categories = Category::all();
-        $selectedCategories = $paper->categories->pluck('id')->toArray();
-        
-        return view('admin.papers.edit', compact('paper', 'categories', 'selectedCategories'));
+        return view('admin.papers.edit', compact('paper'));
     }
 
     public function update(Request $request, $id)
@@ -179,10 +157,8 @@ class PaperController extends Controller
             'references' => 'nullable|string',
             'author_bios' => 'nullable|string',
             'is_featured' => 'boolean',
-            'categories' => 'required|array',
-            'categories.*' => 'exists:categories,id',
             'thumbnail' => 'nullable|image|max:2048',
-            'paper_file' => 'nullable|file|mimes:pdf,doc,docx|max:10240',
+            'paper_file' => 'nullable|file|mimes:pdf',
         ]);
 
         if ($paper->title !== $validated['title']) {
@@ -199,14 +175,25 @@ class PaperController extends Controller
             $paper->download_url = asset('storage/' . $paper_path);
             
             $download_url = route('papers.download', $paper->id);
-            $qr_path = 'qrcodes/paper-' . $paper->id . '.png';
-            $qr_storage_path = storage_path('app/public/' . $qr_path);
+            $qr_filename = 'paper-' . $paper->id . '.png';
+            $qr_path = 'qrcodes/' . $qr_filename;
+            
+            $qr_directory = public_path('storage/qrcodes');
+            if (!file_exists($qr_directory)) {
+                mkdir($qr_directory, 0755, true);
+            }
+            
+            $qr_full_path = public_path('storage/' . $qr_path);
+            
+            if (file_exists($qr_full_path)) {
+                unlink($qr_full_path);
+            }
             
             QrCode::format('png')
                 ->size(300)
                 ->margin(2)
                 ->errorCorrection('H')
-                ->generate($download_url, $qr_storage_path);
+                ->generate($download_url, $qr_full_path);
                 
             $paper->qr_code_url = asset('storage/' . $qr_path);
         }
@@ -240,8 +227,6 @@ class PaperController extends Controller
         
         $paper->save();
         
-        $paper->categories()->sync($validated['categories']);
-        
         return redirect()->route('admin.papers.index')
             ->with('success', 'Research paper updated successfully!');
     }
@@ -262,13 +247,16 @@ class PaperController extends Controller
         
         if ($paper->qr_code_url) {
             $qr_path = str_replace(asset('storage/'), '', $paper->qr_code_url);
-            Storage::disk('public')->delete($qr_path);
+            $qr_full_path = public_path('storage/' . $qr_path);
+            if (file_exists($qr_full_path)) {
+                unlink($qr_full_path);
+            }
         }
         
-        $paper->categories()->detach();
         $paper->delete();
         
         return redirect()->route('admin.papers.index')
             ->with('success', 'Research paper deleted successfully!');
     }
+    
 }

@@ -7,13 +7,16 @@ RUN apt-get update && apt-get install -y \
 	libfreetype6-dev \
 	libonig-dev \
 	libxml2-dev \
+	libmagickwand-dev \
 	zip \
 	unzip \
 	curl \
 	git \
 	vim \
 	&& docker-php-ext-configure gd --with-freetype --with-jpeg \
-	&& docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd
+	&& docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd \
+	&& pecl install imagick \
+	&& docker-php-ext-enable imagick
 
 COPY --from=composer:2.6 /usr/bin/composer /usr/bin/composer
 
