@@ -18,7 +18,7 @@
     <link href="{{ asset('assets/css/research-papers.css') }}" rel="stylesheet">
 
     <title>{{ env('APP_NAME') }}</title>
-    <link rel="icon" href="{{ asset('logo.png') }}" type="image/png">
+    <link rel="icon" href="https://automationeye.com/logo.png" type="image/png">
 </head>
 <!-- <head>
 
@@ -84,7 +84,7 @@
             <div class="menu-close-btn"><i class="bi bi-x-lg"></i></div>
             <div class="mobile-logo-area d-flex justify-content-start align-items-center">
                 <div class="header-logo">
-                    <a href=""><img alt="image" class="" src="logo.png" width="100" height="50"></a>
+                    <a href=""><img alt="image" class="" src="https://automationeye.com/logo.png" width="100" height="50"></a>
                 </div>
             </div>
             <div class="sidebar-menu-area">
@@ -115,14 +115,14 @@
                         </ul>
                     </li>
                     <li class="menu-item"><a href="https://shop.automationeye.com">E-shop</a></li>
-                    <li class="menu-item-has-children menu-item">
+                    <!-- <li class="menu-item-has-children menu-item">
                         <a href="/research-papers" data-hover="Research-papers">Research Papers</a><i class="bi bi-plus-lg dropdown-icon2"></i>
                         <ul class="sub-menu">
                             <li><a href="/research-papers#featured">Featured Papers</a></li>
                             <li><a href="/research-papers#recent">Recent Publications</a></li>
                             <li><a href="{{ route('admin.papers.create') }}">Add New Paper</a></li>
                         </ul>
-                    </li>
+                    </li> -->
 
                     <li class="menu-item"><a href="/services#training">Engineering safety</a></li>
                     <li class="menu-item"><a href="/contact">Contact us</a></li>
@@ -134,7 +134,7 @@
     <div class="main-container">
         <div class="sidebar-wrapper">
             <div class="header-logo">
-                <a href="/"><img alt="image" class="" src="logo.png" width="100" height="50"></a>
+                <a href="/"><img alt="image" class="" src="https://automationeye.com/logo.png" width="100" height="50"></a>
             </div>
             <div class="sidebar-button mobile-menu-btn">
                 <span></span>
@@ -146,7 +146,7 @@
         <div class="main-content">
             <header class="header5 d-lg-none d-flex">
                 <div class="header-logo">
-                    <a href=""><img alt="image" class="" src="logo.png" width="100" height="50"></a>
+                    <a href=""><img alt="image" class="" src="https://automationeye.com/logo.png" width="100" height="50"></a>
                 </div>
                 <div class="sidebar-button mobile-menu-btn2">
                     <span></span>
@@ -160,7 +160,7 @@
                     <div class="col-lg-12">
                         <div class="footer-top-content">
                             <div class="footer-logo">
-                                <a href="/"><img class="img-fluid" src="logo.png" width="100" height="50" alt></a>
+                                <a href="/"><img class="img-fluid" src="https://automationeye.com/logo.png" width="100" height="50" alt></a>
                             </div>
                             <div class="footer-contect">
                                 <div class="icon">
