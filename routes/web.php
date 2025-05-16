@@ -26,7 +26,10 @@ Route::get('/research-papers/category/{slug}', [PaperController::class, 'byCateg
 Route::get('/research-papers/{slug}', [PaperController::class, 'show'])->name('papers.show');
 Route::get('/papers/download/{id}', [PaperController::class, 'download'])->name('papers.download');
 
+Route::get('/papers/downloads', [PaperController::class, 'downloads'])->name('papers.downloads');
+
 Route::prefix('admin')->name('admin.')->group(function () {
     Route::resource('papers', PaperController::class)->except(['show']);
+    Route::get('papers/business-card-qr', [PaperController::class, 'generateBusinessCardQR'])->name('papers.business.card.qr');
 });
 Route::post('/admin/papers/generate-global-qr', [PaperController::class, 'generateGlobalQrFromAdmin'])->name('admin.generate.global.qr');

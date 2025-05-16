@@ -19,6 +19,9 @@
         <div class="card-header py-3">
             <h6 class="m-0 font-weight-bold text-primary">Manage Research Papers</h6>
         </div>
+        <a href="{{ route('admin.papers.business.card.qr') }}" class="btn btn-info mb-3">
+        <i class="bx bx-qr"></i> Generate Business Card QR
+        </a>
         <div class="card-body">
             <div class="table-responsive">
                 <table class="table table-bordered" id="papers-table" width="100%" cellspacing="0">

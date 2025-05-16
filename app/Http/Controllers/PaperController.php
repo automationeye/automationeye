@@ -34,6 +34,13 @@ class PaperController extends Controller
         return view('research-papers', compact('featuredPapers', 'recentPapers', 'globalQrCode'));
     }
 
+    public function downloads()
+    {
+        $papers = Paper::orderBy('published_date', 'desc')->get();
+        
+        return view('papers.downloads', compact('papers'));
+    }
+
     public function create()
     {
         return view('admin.papers.create');
@@ -135,6 +142,29 @@ class PaperController extends Controller
         $paper->save();
         
         return Storage::disk('public')->download($file_path, Str::slug($paper->title) . '.' . pathinfo($file_path, PATHINFO_EXTENSION));
+    }
+
+    public function generateBusinessCardQR()
+    {
+        $downloadsUrl = route('papers.downloads');
+        
+        $qrDirectory = public_path('storage/qrcodes');
+        if (!file_exists($qrDirectory)) {
+            mkdir($qrDirectory, 0755, true);
+        }
+        
+        $globalQrPath = 'qrcodes/automationeye-business-card-qr.png';
+        $globalQrFullPath = public_path('storage/' . $globalQrPath);
+        
+        QrCode::format('png')
+            ->size(600)
+            ->margin(2)
+            ->errorCorrection('H')
+            ->generate($downloadsUrl, $globalQrFullPath);
+        
+        $qrUrl = asset('storage/' . $globalQrPath);
+        
+        return view('admin.papers.business-card-qr', compact('qrUrl'));
     }
 
     public function edit($id)
