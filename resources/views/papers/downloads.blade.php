@@ -69,98 +69,6 @@
     color: #0a58ca;
     text-decoration: underline;
 }
-
-.download-btn {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-    aspect-ratio: 1/1;
-    width: 150px;
-    height: 50px;
-    padding: 12px;
-    border-radius: 4px;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.download-btn .bx-download {
-    display: inline-block;
-    line-height: 1;
-}
-
-.download-btn.loading {
-    background-color: #004085;
-    pointer-events: none;
-}
-
-.download-btn .btn-text {
-    display: inline-block;
-    transition: opacity 0.3s ease;
-}
-
-.download-btn .spinner {
-    position: absolute;
-    display: none;
-    width: 20px;
-    height: 20px;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    border-radius: 50%;
-    border-top: 2px solid #fff;
-    animation: spin 1s linear infinite;
-}
-
-.download-btn.loading .btn-text {
-    opacity: 0.5;
-}
-
-.download-btn.loading .spinner {
-    display: block;
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-.toast-container {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 9999;
-}
-
-.toast {
-    background-color: #333;
-    color: white;
-    padding: 12px 20px;
-    border-radius: 4px;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-}
-
-.toast.show {
-    opacity: 1;
-}
-
-.toast i {
-    margin-right: 10px;
-    font-size: 18px;
-}
-
-.toast.success {
-    background-color: #28a745;
-}
-
-.toast.info {
-    background-color: #0d6efd;
-}
 </style>
 
 <div class="inner-banner">
@@ -207,9 +115,8 @@
                             </div>
                             <p>{{ Str::limit($paper->abstract, 120) }}</p>
                             <div class="paper-footer">
-                                <a href="{{ route('papers.download', $paper->id) }}" class="primary-btn2 download-btn" data-paper-id="{{ $paper->id }}">
-                                    <span class="spinner"></span>
-                                    <span class="btn-text"><i class='bx bx-download'></i>&nbsp;Download</span>
+                                <a href="{{ route('papers.download', $paper->id) }}" class="primary-btn2">
+                                    <i class='bx bx-download'></i> Download
                                 </a>
                             </div>
                         </div>
@@ -233,50 +140,4 @@
         </div>
     </div>
 </div>
-
-<div class="toast-container"></div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const downloadButtons = document.querySelectorAll('.download-btn');
-    
-    downloadButtons.forEach(button => {
-        button.addEventListener('click', function(e) {
-            
-            this.classList.add('loading');
-            
-            const paperCard = this.closest('.research-paper-card');
-            const paperTitle = paperCard ? paperCard.querySelector('.title h4').textContent : 'Paper';
-            
-            showToast('info', '<i class="bx bx-download"></i> Downloading "' + paperTitle + '"');
-            setTimeout(() => {
-                if (this.classList.contains('loading')) {
-                    this.classList.remove('loading');
-                    showToast('success', '<i class="bx bx-check"></i> Download complete for "' + paperTitle + '"');
-                }
-            }, 5000);
-        });
-    });
-    
-    function showToast(type, message) {
-        const toastContainer = document.querySelector('.toast-container');
-        const toast = document.createElement('div');
-        toast.className = `toast ${type}`;
-        toast.innerHTML = message;
-        
-        toastContainer.appendChild(toast);
-        
-        toast.offsetHeight;
-        
-        toast.classList.add('show');
-        
-        setTimeout(() => {
-            toast.classList.remove('show');
-            setTimeout(() => {
-                toastContainer.removeChild(toast);
-            }, 300);
-        }, 3000);
-    }
-});
-</script>
 @endsection
